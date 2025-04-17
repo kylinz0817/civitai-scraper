@@ -1,0 +1,651 @@
+{
+    "id": 732302,
+    "modelId": 654541,
+    "name": "Pony",
+    "createdAt": "2024-08-17T06:45:13.780Z",
+    "updatedAt": "2025-04-10T02:44:09.458Z",
+    "status": "Published",
+    "publishedAt": "2024-08-17T12:55:07.307Z",
+    "trainedWords": [
+        "centaur, horse legs, human torso, taur, animal ears"
+    ],
+    "trainingStatus": null,
+    "trainingDetails": null,
+    "baseModel": "Pony",
+    "baseModelType": null,
+    "earlyAccessEndsAt": null,
+    "earlyAccessConfig": null,
+    "description": null,
+    "uploadType": "Created",
+    "usageControl": "Download",
+    "air": "urn:air:sdxl:lora:civitai:654541@732302",
+    "stats": {
+        "downloadCount": 1135,
+        "ratingCount": 0,
+        "rating": 0,
+        "thumbsUpCount": 202
+    },
+    "model": {
+        "name": "Centaur Transformation [Illustrious | Pony XL]",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "id": 646424,
+            "sizeKB": 445805.32421875,
+            "name": "Centaur_Girl.safetensors",
+            "type": "Model",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "virusScanMessage": null,
+            "scannedAt": "2024-08-17T06:56:17.941Z",
+            "metadata": {
+                "format": "SafeTensor",
+                "size": null,
+                "fp": null
+            },
+            "hashes": {
+                "AutoV1": "34C2A77F",
+                "AutoV2": "43A1C24B90",
+                "SHA256": "43A1C24B90B7ACDA9348D72BD24AA215B3C0107DE9CB68BB85244964648A9A19",
+                "CRC32": "0C7A9771",
+                "BLAKE3": "F9B423D0A605E46E1C5E334FA9B8307521C2BD251F4046665A8F7769467BF185",
+                "AutoV3": "B0FD36B4111F"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/732302"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9fcb8d93-431c-4a4d-9b36-e0172aa83321/width=1024/24717276.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UXJ7XD%2ID-p}uxGenxaR-s.enRk-n%extNG",
+            "type": "image",
+            "metadata": {
+                "hash": "UXJ7XD%2ID-p}uxGenxaR-s.enRk-n%extNG",
+                "size": 2035811,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 3519599000,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67d50010-79a1-4571-a520-7c91f0ff2a22/width=1024/24717270.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UZH31RnP9JRV_KSwNGRUtfS|R8jIidnmiyxW",
+            "type": "image",
+            "metadata": {
+                "hash": "UZH31RnP9JRV_KSwNGRUtfS|R8jIidnmiyxW",
+                "size": 1813042,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 3143424821,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:EPpkJessiePony": "cf1aefba3908"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:EPpkJessiePony:1> EPpkJessie",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "cf1aefba3908",
+                        "name": "EPpkJessiePony",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eccea09f-7bc9-4f1e-b036-908bb06f24ce/width=1024/24717252.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "URHCuyLxGYSx|PL1gMNbH?O=nOrEvhVZK%#9",
+            "type": "image",
+            "metadata": {
+                "hash": "URHCuyLxGYSx|PL1gMNbH?O=nOrEvhVZK%#9",
+                "size": 1274980,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 3143424820,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:EPpkJessiePony": "cf1aefba3908"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:EPpkJessiePony:1> EPpkJessie",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "cf1aefba3908",
+                        "name": "EPpkJessiePony",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/660e6855-7bd5-493e-900f-84f710f6d99c/width=1024/24717275.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "U8H2iHE1Cs[C0Ft$%Wzsyt%e}7k;4UrD.PTw",
+            "type": "image",
+            "metadata": {
+                "hash": "U8H2iHE1Cs[C0Ft$%Wzsyt%e}7k;4UrD.PTw",
+                "size": 2033003,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 326714479,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Yaomomo": "a4bbafadc658",
+                    "lora:Centaur_Girl": "b0fd36b4111f"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:Yaomomo:0.9> yaomomo, woman, person",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "a4bbafadc658",
+                        "name": "Yaomomo",
+                        "type": "lora",
+                        "weight": 0.9
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05928157-529c-480f-aed6-f73fe17fc1a2/width=1024/24717261.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UfLW0eWEnLxa}QofMzj?KgofERR*iwaeEzWB",
+            "type": "image",
+            "metadata": {
+                "hash": "UfLW0eWEnLxa}QofMzj?KgofERR*iwaeEzWB",
+                "size": 1603265,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 2431994613,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:Amethyst_SDXL": "0e01be0bdee6"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:Amethyst_SDXL:0.9> hair over one eye, amethyst, colored skin, purple skin, long hair, 1girl",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "0e01be0bdee6",
+                        "name": "Amethyst_SDXL",
+                        "type": "lora",
+                        "weight": 0.9
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5bde7f7-0227-4101-8449-9d6a8c82738b/width=1024/24717277.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UlOoM9k9=5WF~RxZm:R+t+ofIpjZx9NGkDs.",
+            "type": "image",
+            "metadata": {
+                "hash": "UlOoM9k9=5WF~RxZm:R+t+ofIpjZx9NGkDs.",
+                "size": 946210,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 1043957734,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:Hinata_Sakeguchi_Tensura": "6e533bc100db"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:Hinata_Sakeguchi_Tensura:0.9> Sakeguchi_Hinata, black hair, asian, short hair, purple eyes, 1girl, tall, slender, hinata Sakeguchi, large breasts, adult,",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "6e533bc100db",
+                        "name": "Hinata_Sakeguchi_Tensura",
+                        "type": "lora",
+                        "weight": 0.9
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f63408ba-6ee5-4b09-b459-f458bb00f36d/width=1024/24717284.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UMKd;}-;_N?b~qIURit7%#aeV?R+8_xuxvjv",
+            "type": "image",
+            "metadata": {
+                "hash": "UMKd;}-;_N?b~qIURit7%#aeV?R+8_xuxvjv",
+                "size": 850850,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 1043957736,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:Hinata_Sakeguchi_Tensura": "6e533bc100db"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:Hinata_Sakeguchi_Tensura:0.9> Sakeguchi_Hinata, black hair, asian, short hair, purple eyes, 1girl, tall, slender, hinata Sakeguchi, large breasts, adult,",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "6e533bc100db",
+                        "name": "Hinata_Sakeguchi_Tensura",
+                        "type": "lora",
+                        "weight": 0.9
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08c0ef15-9854-41a6-968d-156f6cd0b71b/width=1024/24717297.jpeg",
+            "nsfwLevel": 4,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFJ%UtNI=eJ;0u$$KPo}0;M}0hM|W7tk-Qn3",
+            "type": "image",
+            "metadata": {
+                "hash": "UFJ%UtNI=eJ;0u$$KPo}0;M}0hM|W7tk-Qn3",
+                "size": 2056983,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 3519598999,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eead5240-d1f9-48a3-867a-be0bfca7eeb8/width=1024/24718294.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UGCZ-OV@00E%}[sp57NG8wxuXor=EgSexb$*",
+            "type": "image",
+            "metadata": {
+                "hash": "UGCZ-OV@00E%}[sp57NG8wxuXor=EgSexb$*",
+                "size": 863627,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 2148763255,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:Hoseki_UzakiChan_YanagiUzaki_PDXL_v1": "768b66ca1fa8"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:Hoseki_UzakiChan_YanagiUzaki_PDXL_v1:0.9> ynguzk, fang, covered eyes, short hair with long locks, pink shirt, long sleeves, blue shorts",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "768b66ca1fa8",
+                        "name": "Hoseki_UzakiChan_YanagiUzaki_PDXL_v1",
+                        "type": "lora",
+                        "weight": 0.9
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/375fc8dd-ed3d-4e90-8f57-5ce0ad80e384/width=1024/24718317.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UWF?e5MwS*MycIMwt5V@M_s6MyWFRPV?sCtR",
+            "type": "image",
+            "metadata": {
+                "hash": "UWF?e5MwS*MycIMwt5V@M_s6MyWFRPV?sCtR",
+                "size": 2080527,
+                "width": 1024,
+                "height": 1536
+            },
+            "meta": {
+                "Size": "512x768",
+                "seed": 3655181644,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 35,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "lora:Centaur_Girl": "b0fd36b4111f",
+                    "lora:albedo_official": "68f4b36dc820"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, full body,  <lora:Centaur_Girl:0.8> centaur, , horse legs, human torso, taur, animal ears <lora:albedo_official:0.3> albedo, albedo (overlord)",
+                "Version": "v1.9.4",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b0fd36b4111f",
+                        "name": "Centaur_Girl",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "68f4b36dc820",
+                        "name": "albedo_official",
+                        "type": "lora",
+                        "weight": 0.3
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (score_4, score_5, score_6, monochrome, (censor), 3d, realistic, render, CGI, text, watermark, cartoon, sketch, greyscale:1),, armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, nude, painted nails, white background, simple background, legs",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/732302"
+}

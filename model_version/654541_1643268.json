@@ -1,0 +1,676 @@
+{
+    "id": 1643268,
+    "modelId": 654541,
+    "name": "Illustrious",
+    "createdAt": "2025-04-10T02:44:09.458Z",
+    "updatedAt": "2025-04-10T02:49:43.948Z",
+    "status": "Published",
+    "publishedAt": "2025-04-10T02:49:43.625Z",
+    "trainedWords": [
+        "centaur, horse legs, human torso, taur, animal ears"
+    ],
+    "trainingStatus": null,
+    "trainingDetails": null,
+    "baseModel": "Illustrious",
+    "baseModelType": null,
+    "earlyAccessEndsAt": "2025-04-25T02:49:43.625Z",
+    "earlyAccessConfig": {
+        "timeframe": 15,
+        "donationGoal": 10000,
+        "downloadPrice": 200,
+        "donationGoalId": 9064,
+        "generationPrice": 50,
+        "chargeForDownload": true,
+        "chargeForGeneration": true,
+        "donationGoalEnabled": true,
+        "originalPublishedAt": "2025-04-10T02:49:43.625Z",
+        "generationTrialLimit": 10
+    },
+    "description": null,
+    "uploadType": "Created",
+    "usageControl": "Download",
+    "air": "urn:air:sdxl:lora:civitai:654541@1643268",
+    "stats": {
+        "downloadCount": 10,
+        "ratingCount": 0,
+        "rating": 0,
+        "thumbsUpCount": 29
+    },
+    "model": {
+        "name": "Centaur Transformation [Illustrious | Pony XL]",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "id": 1543726,
+            "sizeKB": 223139.40234375,
+            "name": "Centaur_Transformation_Illustrious.safetensors",
+            "type": "Model",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "virusScanMessage": null,
+            "scannedAt": "2025-04-10T02:51:33.407Z",
+            "metadata": {
+                "format": "SafeTensor",
+                "size": null,
+                "fp": null
+            },
+            "hashes": {
+                "AutoV1": "458BD795",
+                "AutoV2": "524B90271C",
+                "SHA256": "524B90271C73B66D0231794C2E7A30A8FFCA7D6B2C8138CBDEE5682504D7DDE6",
+                "CRC32": "0D043A26",
+                "BLAKE3": "1A116836F655FEA756D6AAAD8FED8D874104DA64D996BB03BBDDA0A597E541D7",
+                "AutoV3": "29C69F0EF8C1"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/1643268"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c62f8c3-ac5a-441c-95a1-ab00243ca80b/width=1024/69075266.jpeg",
+            "nsfwLevel": 4,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UB7_Tct74TRjMcWWIAjY_4j[MxayD%WAV@oz",
+            "type": "image",
+            "metadata": {
+                "hash": "UB7_Tct74TRjMcWWIAjY_4j[MxayD%WAV@oz",
+                "size": 1229622,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 2545630350,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:quency_escape_queen_nikke_illustrious_goofy": "23427140D297"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:quency_escape_queen_nikke_illustrious_goofy:0.5> quencyEq, red eyes, black hair, black bodysuit, latex, double bun, black hair, gigantic breasts,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "23427140D297",
+                        "name": "quency_escape_queen_nikke_illustrious_goofy",
+                        "type": "lora",
+                        "weight": 0.5
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c052da3-7dc2-41ca-9606-f4b5d42628a2/width=1024/69075182.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1456,
+            "hash": "U59ZWani00Io0fX8$%ad}ts:rrR*5PbbNgjb",
+            "type": "image",
+            "metadata": {
+                "hash": "U59ZWani00Io0fX8$%ad}ts:rrR*5PbbNgjb",
+                "size": 708938,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 1090351824,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Neferpitou_2011_-_Illustrious": "59448f5e70da",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Neferpitou_2011_-_Illustrious:0.8> pitou, short hair, wavy hair, white hair, cat ears, cat tail, red eyes, blue shirt, brown shorts, socks, shoes",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "59448f5e70da",
+                        "name": "Neferpitou_2011_-_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccfb14c0-d03a-45fa-9b19-75dc790a5cbe/width=1024/69075244.jpeg",
+            "nsfwLevel": 2,
+            "width": 1024,
+            "height": 1456,
+            "hash": "U8BftyFf02{^2+IADi-T:t#8]-K*00yCTwAb",
+            "type": "image",
+            "metadata": {
+                "hash": "U8BftyFf02{^2+IADi-T:t#8]-K*00yCTwAb",
+                "size": 1009498,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 2435239972,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious": "9619fb9b1a54"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious:0.8> brazilian miku, aqua hair, sunglasses on head, flower in hair, yellow shirt, brazil flag on shirt, denim shorts, booty shorts, tanned, 1girl, hatsune miku,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "9619fb9b1a54",
+                        "name": "Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5957faf-424c-4189-9040-ade8a8e32919/width=1024/69075174.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UxP7FBW:_4xuo|oznlaK-=oMemo1sqV@bEg3",
+            "type": "image",
+            "metadata": {
+                "hash": "UxP7FBW:_4xuo|oznlaK-=oMemo1sqV@bEg3",
+                "size": 776709,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 2435239974,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious": "9619fb9b1a54"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious:0.8> brazilian miku, aqua hair, sunglasses on head, flower in hair, yellow shirt, brazil flag on shirt, denim shorts, booty shorts, tanned, 1girl, hatsune miku,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "9619fb9b1a54",
+                        "name": "Brazilian_Miku_Hatsune_Miku_Vocaloid_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3f33f4b-8227-42cd-8591-3d4245aad42a/width=1024/69075178.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UA9t1FV@00_4yEIUI9-;9ta{$gV@4mxb?cD%",
+            "type": "image",
+            "metadata": {
+                "hash": "UA9t1FV@00_4yEIUI9-;9ta{$gV@4mxb?cD%",
+                "size": 720646,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 1362536583,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Bottom_Heavy_Illustrious": "aa5ad7c2b59c",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Bottom_Heavy_Illustrious:0.8> bottom heavy, thick thighs, wide hips, huge ass, thick, gigantic ass,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "aa5ad7c2b59c",
+                        "name": "Bottom_Heavy_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c857f70-34ef-4025-8000-b4da32f0f42c/width=1024/69075261.jpeg",
+            "nsfwLevel": 8,
+            "width": 1024,
+            "height": 1456,
+            "hash": "U7KJA27#hf;M0j-p00VsBW=IKkkR00Ip~Vkp",
+            "type": "image",
+            "metadata": {
+                "hash": "U7KJA27#hf;M0j-p00VsBW=IKkkR00Ip~Vkp",
+                "size": 1334078,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 1391822160,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Aloe_Interspecies_Reviewers_Illustrious": "cbf5778127d6"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Aloe_Interspecies_Reviewers_Illustrious:0.8> Aloe, large breasts, fairy, fairy wings, tattoos, crotch tattoos, thong, black, green hair, clothes, red panties, earrings, piercings, pygmy, small, tired, bags under eyes, small body, mini person,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "cbf5778127d6",
+                        "name": "Aloe_Interspecies_Reviewers_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9e50009-281a-480b-9f64-09cc09b4e498/width=1024/69075262.jpeg",
+            "nsfwLevel": 4,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UPLCCh9brXNa?@VtMys,[[oeIWs-tKWDR.WE",
+            "type": "image",
+            "metadata": {
+                "hash": "UPLCCh9brXNa?@VtMys,[[oeIWs-tKWDR.WE",
+                "size": 1321757,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 1391822157,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Aloe_Interspecies_Reviewers_Illustrious": "cbf5778127d6"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,     <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears, <lora:Aloe_Interspecies_Reviewers_Illustrious:0.8> Aloe, large breasts, fairy, fairy wings, tattoos, crotch tattoos, thong, black, green hair, clothes, red panties, earrings, piercings, pygmy, small, tired, bags under eyes, small body, mini person,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "cbf5778127d6",
+                        "name": "Aloe_Interspecies_Reviewers_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7cb6b7f2-6ddf-44cc-9e11-4800adc0f511/width=1024/69075252.jpeg",
+            "nsfwLevel": 1,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UHG[vXW,00009Y-;IUD%00%3~qs;o#D%WB%M",
+            "type": "image",
+            "metadata": {
+                "hash": "UHG[vXW,00009Y-;IUD%00%3~qs;o#D%WB%M",
+                "size": 1043351,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 458323506,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Googly_Eyed_Titty_Ghost_Illustrious": "bea5920f2dee"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,    <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears <lora:Googly_Eyed_Titty_Ghost_Illustrious:0.77> tittyghost, ghost costume, breasts, googly eyes, white outfit, face covered, head covered,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "bea5920f2dee",
+                        "name": "Googly_Eyed_Titty_Ghost_Illustrious",
+                        "type": "lora",
+                        "weight": 0.77
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4207bbd0-86bb-4aaf-a22e-60cdd723d823/width=1024/69075186.jpeg",
+            "nsfwLevel": 4,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UVQJl,OY~pwH_2%1RiWD_3t6IASiITRPkDoz",
+            "type": "image",
+            "metadata": {
+                "hash": "UVQJl,OY~pwH_2%1RiWD_3t6IASiITRPkDoz",
+                "size": 691560,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 458323508,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Googly_Eyed_Titty_Ghost_Illustrious": "bea5920f2dee"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,    <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears <lora:Googly_Eyed_Titty_Ghost_Illustrious:0.77> tittyghost, ghost costume, breasts, googly eyes, white outfit, face covered, head covered,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "bea5920f2dee",
+                        "name": "Googly_Eyed_Titty_Ghost_Illustrious",
+                        "type": "lora",
+                        "weight": 0.77
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b033ca5-11eb-41f8-a9f3-03c58a6a0f8c/width=1024/69075264.jpeg",
+            "nsfwLevel": 8,
+            "width": 1024,
+            "height": 1456,
+            "hash": "UILfa6oz_+=xI4wJD%JBNNnhF;X89]K4xa#o",
+            "type": "image",
+            "metadata": {
+                "hash": "UILfa6oz_+=xI4wJD%JBNNnhF;X89]K4xa#o",
+                "size": 1262849,
+                "width": 1024,
+                "height": 1456
+            },
+            "meta": {
+                "Size": "512x728",
+                "seed": 3863493710,
+                "Model": "ntrMIXIllustriousXL_xiii",
+                "steps": 28,
+                "hashes": {
+                    "model": "1207404b17",
+                    "lora:Centaur_Transformation_Illustrious": "29c69f0ef8c1",
+                    "lora:Goblin_Girl_Transformation_Illustrious": "9631044c2972"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, masterpiece, high quality, BREAK, full body, 1girl,    <lora:Centaur_Transformation_Illustrious:0.8> centaur, horse legs, human torso, taur, animal ears <lora:Goblin_Girl_Transformation_Illustrious:0.5> GobGirl, green skin, short, long ears, large ears, colored skin, monster_girl 1girl, pointy ears, goblin, shortstack, long pointy ears,  earrings, ear piercings,",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "29c69f0ef8c1",
+                        "name": "Centaur_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "9631044c2972",
+                        "name": "Goblin_Girl_Transformation_Illustrious",
+                        "type": "lora",
+                        "weight": 0.5
+                    },
+                    {
+                        "hash": "1207404b17",
+                        "name": "ntrMIXIllustriousXL_xiii",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1207404b17",
+                "Hires steps": "28",
+                "Hires upscale": "2",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "bad anatomy, moles on face, many moles, multiple fingers, deformed hands, nipples, deformed panties, (abs, ribs:1), armor, bow, 1 volleyball, mutilated, deformed hands, extra digits, extra legs, extra limbs, disembodied limbs, black pubic hair, nude, deformed, multiple feet, multiple legs, painted nails, nude, upper body, cartoon, simple white background:1, watermark, sample watermark, (eyes,  tail, :1), blank background, simple background,",
+                "Denoising strength": "0.7"
+            },
+            "availability": "Public",
+            "hasMeta": true,
+            "hasPositivePrompt": true,
+            "onSite": false,
+            "remixOfId": null
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/1643268"
+}
