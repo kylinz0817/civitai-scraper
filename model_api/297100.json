@@ -1,0 +1,278 @@
+{
+    "id": 297100,
+    "name": "Sawa Okita/沖田 紗羽 (Tari Tari) LoRA | 3 Outfits",
+    "description": "<h3 id=\"i-have-a-form-for-requests-now-check-it-out-if-you-want-to-request-a-character\"><a target=\"_blank\" rel=\"ugc\" href=\"https://docs.google.com/forms/d/e/1FAIpQLScl88t__7YLUtDYZjWlxIPIarH5uyl2bI85FlWyJatQOIAt6A/viewform\">I have a form for requests; check it out if you want to request a character.</a></h3><p>Sawa Okita from Tari Tari. Trained on NAI. Tested at 0.8-1.0 strength.</p><p>Trigger word is \"<strong><span style=\"color:rgb(250, 176, 5)\">okitasawa</span></strong>\" and \"<strong><span style=\"color:rgb(250, 176, 5)\">low twintails</span></strong>\" is required.</p><ul><li><p>Add \"<strong><span style=\"color:#fa5252\">hat, choker, frilled dress, black skirt, bare shoulders</span></strong>\" for her regular appearance.</p></li><li><p>Add \"<strong><span style=\"color:#fd7e14\">brown jacket, red necktie, yellow sweater vest, blue skirt, pantyhose</span></strong>\" for her school uniform.</p></li><li><p>Add \"<strong><span style=\"color:#82c91e\">white shirt, short sleeves, red necktie, blue skirt</span></strong>\" for her alternate school uniform.</p></li></ul><p>A request from the form. Check out my <a target=\"_blank\" rel=\"ugc\" href=\"https://discord.gg/uk5qHgE62B\"><strong>Discord</strong></a> if you want to chat about video games (or yell at me about requests.)</p>",
+    "allowNoCredit": true,
+    "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+    ],
+    "allowDerivatives": true,
+    "allowDifferentLicense": true,
+    "type": "LORA",
+    "minor": false,
+    "poi": false,
+    "nsfw": false,
+    "nsfwLevel": 7,
+    "availability": "Public",
+    "cosmetic": null,
+    "supportsGeneration": true,
+    "stats": {
+        "downloadCount": 721,
+        "favoriteCount": 0,
+        "thumbsUpCount": 158,
+        "thumbsDownCount": 0,
+        "commentCount": 1,
+        "ratingCount": 0,
+        "rating": 0,
+        "tippedAmountCount": 0
+    },
+    "creator": {
+        "username": "novowels",
+        "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1520b6b-1c16-4284-befb-c7880b67e477/width=96/novowels.jpeg"
+    },
+    "tags": [
+        "anime",
+        "character",
+        "female",
+        "woman",
+        "tari tari"
+    ],
+    "modelVersions": [
+        {
+            "id": 333803,
+            "index": 0,
+            "name": "v1",
+            "baseModel": "SD 1.5",
+            "createdAt": "2024-02-08T01:07:15.617Z",
+            "publishedAt": "2024-02-08T01:13:46.020Z",
+            "status": "Published",
+            "availability": "Public",
+            "nsfwLevel": 7,
+            "description": "<p>Not sure if she had more outfits, so let me know if I missed one...</p>",
+            "trainedWords": [
+                "okitasawa, low twintails",
+                "hat, choker, frilled dress, black skirt, bare shoulders, cleavage",
+                "brown jacket, red necktie, yellow sweater vest, blue skirt, pantyhose",
+                "white shirt, short sleeves, red necktie, blue skirt"
+            ],
+            "covered": true,
+            "stats": {
+                "downloadCount": 721,
+                "ratingCount": 102,
+                "rating": 5,
+                "thumbsUpCount": 158,
+                "thumbsDownCount": 0
+            },
+            "files": [
+                {
+                    "id": 264674,
+                    "sizeKB": 36982.1171875,
+                    "name": "okitasawa-nvwls-v1.safetensors",
+                    "type": "Model",
+                    "pickleScanResult": "Success",
+                    "pickleScanMessage": "No Pickle imports",
+                    "virusScanResult": "Success",
+                    "virusScanMessage": null,
+                    "scannedAt": "2024-02-08T01:11:15.313Z",
+                    "metadata": {
+                        "format": "SafeTensor"
+                    },
+                    "hashes": {
+                        "AutoV1": "3D4CB6F4",
+                        "AutoV2": "07EE5D23DD",
+                        "SHA256": "07EE5D23DD4BB7665DEC9537636311D79F85012D860ADE10572902F1E2311C12",
+                        "CRC32": "C7954C46",
+                        "BLAKE3": "292532CA42BF94EF6D626B1AE4F33A9CB6417386C74F38BCD866388045E9BE5E",
+                        "AutoV3": "7E02863C8AB9"
+                    },
+                    "downloadUrl": "https://civitai.com/api/download/models/333803",
+                    "primary": true
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/775f7e5a-e8b6-4a50-abd4-4bd3506d3617/width=1024/6385408.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UIHB[6%jK4ITyDx{Ipxt57.9^+%L.TNgVsNG",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbcf8e8f-24b8-4fe3-b602-48dfb359f2b4/width=1024/6385393.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UEJ7:h?a~Uoc^jM{9aIVIot7s8xa9FWBD*WC",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/150bb2fa-ffef-4576-983c-a2005a829884/width=1024/6385398.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UIJafsR.^f%i~V?Hx^-;00kX-;M{={R,WVRi",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a45f62d-5ed3-4959-bb78-d75c90cdfa30/width=1024/6385391.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UgF?L#n%tmJCyGtQkYf,8{Wrr=V@D%s;V?s,",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a7cf736-8dc1-44bd-94aa-ce3be996da31/width=1024/6385487.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UAG[G{0101?H~qe,01kXcG8_-nM}-o?HniT0",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bd53490-5b13-48c6-9460-9e467b9a2155/width=1024/6385401.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UGH2vYG1I.ysDx4@=wRn8wDiR4I9JExu.8JC",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/545b4664-cb70-49eb-bdc5-5b8e1434c50c/width=1024/6385399.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "URG8fg~VOqx].8x]tRtkE3xu-;o}R.t8%3s;",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a622d530-db8b-4271-93fa-a8ef85de7bc7/width=1024/6385392.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UdF~p?M|g4%gyZxZX9tSE4ayWDM|NHNHaeRi",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b149c7a-cfde-49f4-96d0-1c88f2f7de5d/width=1024/6385402.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UMI#P,9F-jjF~VR*R,ayDi-;IpbGIoIV%1t7",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b5771d2-72b9-4e8d-b038-c328b76adea1/width=1024/6385410.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UYIrKjXU?wE2PER-JCoeD+sSxZt6NLj[xZkC",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5daa5c14-d720-4c86-9fbf-f30149b2e96a/width=1024/6385397.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UDLW6M^61H~WypEK=y-o9=b0EKa0H[=gNFjZ",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bebf4472-3a1e-47a3-9690-bf191b487763/width=1024/6385403.jpeg",
+                    "nsfwLevel": 4,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "USIh?R9_YQtR~A%M%1Di.7xC%2E1WGbc$*n~",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fce5163-b554-47c0-9054-707df466934c/width=1024/6385404.jpeg",
+                    "nsfwLevel": 2,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UbI=109aF{%Mt:ogxdRjD-ozN1jFSvW;Sds:",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a462e90-01b6-419e-aa0b-5a73a309c50e/width=1024/6385406.jpeg",
+                    "nsfwLevel": 4,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UIIFD5D$7MVY~nD$x]MxDiIU$Ltl}@WBROTJ",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                },
+                {
+                    "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d506aa2-8d8b-4ab6-aa95-9f544a015fa8/width=1024/6385407.jpeg",
+                    "nsfwLevel": 1,
+                    "width": 1024,
+                    "height": 1536,
+                    "hash": "UlKKsCxtENx[K8E2%1WB%%j^xus;x]R*oft7",
+                    "type": "image",
+                    "hasMeta": true,
+                    "hasPositivePrompt": true,
+                    "onSite": false,
+                    "remixOfId": null
+                }
+            ],
+            "downloadUrl": "https://civitai.com/api/download/models/333803"
+        }
+    ]
+}
